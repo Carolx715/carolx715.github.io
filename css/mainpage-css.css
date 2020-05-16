@@ -1,0 +1,126 @@
+@font-face {
+	font-family: "Roboto Bold Italic";
+	src: url(../fonts/Roboto-BoldItalic.ttf) format("truetype");
+}
+
+body {
+	padding: 50px;
+	padding-top: 100px;
+	height: 1000px;
+	text-align: center;
+	background: linear-gradient(0.5deg, #0C1717 0.34%, #00383C 98.95%);
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.toolbar {
+	position: fixed;
+	width: 1440px;
+	height: 69px;
+	left: 0px;
+	top: 0px;
+
+	background: #002225;
+}
+
+.main-container{
+	width: 80%;
+	display: inline-block;
+}
+
+.portrait-img {
+	width: 100%;
+	height: auto;
+}
+
+.text-container {
+	position: relative;
+	float: left;
+	width: 70%;
+}
+
+.portrait-container {
+	position: relative;
+	
+	float: left;
+	left: 0%;
+	top: 0%;
+	bottom: 0%;
+	width: 30%;
+	height: auto;
+}
+
+.title {
+	position: relative;
+	margin: 0px;
+	right: 0%;
+	color: #AFCFD3;
+	text-align: right;
+	font-family: "Roboto Bold Italic";
+	font-size: 110px;
+	line-height: 169px;
+	text-align: right;
+}
+
+.subtitle {
+	position: relative;
+
+	font-family: "Roboto Bold Italic";
+	font-size: 40px;
+	line-height: 56px;
+	text-align: right;
+
+	color: #D2D2D2;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.circle-container {
+	position: relative;
+	display: inline-block;
+	width: 90%;
+	height: auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.circle {
+	position: absolute;
+	border-radius: 50%;
+	width: 266px;
+	height: 266px;
+	text-align: center;
+	top: 100px;
+	display: inline-block;
+	
+	font-family: "Roboto Bold Italic";
+	color: white;
+	font-size: 34px;
+}
+
+.icon-img {
+	padding-top: 10%;
+	width: 60%;
+	height: auto;
+}
+
+#c1 {
+	left: 8%;
+	background-color: rgba(239, 200, 66, 0.21);
+}
+#c2 {
+	left: 28%;
+	background-color: rgba(66, 239, 228, 0.14);
+}
+#c3 {
+	left: 48%;
+	background-color: rgba(255, 102, 92, 0.14);
+}
+#c4 {
+	left: 68%;
+	background-color: rgba(173, 66, 239, 0.14);
+}
+
+
