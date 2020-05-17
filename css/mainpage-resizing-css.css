@@ -88,3 +88,66 @@
 		top: -4px;
 	}
 }
+
+
+@media (hover: none) {
+	.portrait-container {
+		float: none;
+		display: inline-block;
+		width: 50%;
+	}
+
+	body {
+		padding: 0px;
+		padding-top: 70px;
+	}
+
+	.circle {
+		position: relative;
+		width: 150px;
+		height: 150px;
+		font-size: 20px;
+	}
+
+	.title {
+		font-size: 70px;
+		line-height: 90px;
+		text-align: center;
+		float: none;
+		width: 100%;
+	}
+
+	.subtitle {
+		font-size: 25px;
+		line-height: 37px;
+		text-align: center;
+		float: none;
+		width: 100%;
+	}
+
+	.icon-img {
+		padding-top: 10%;
+		width: 60%;
+		height: auto;
+	}
+
+	#c1 {
+		left: 1.5%;
+		top: 4px;
+	}
+
+	#c2 {
+		left: -1.5%;
+		top: 4px;
+	}
+
+	#c3 {
+		left: 1.5%;
+		top: -4px;
+	}
+
+	#c4 {
+		left: -1.5%;
+		top: -4px;
+	}
+}
