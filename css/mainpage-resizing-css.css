@@ -133,21 +133,21 @@
 
 	#c1 {
 		left: 1.5%;
-		top: 4px;
+		top: 0.5em;
 	}
 
 	#c2 {
 		left: -1.5%;
-		top: 4px;
+		top: 0.5em;
 	}
 
 	#c3 {
 		left: 1.5%;
-		top: -4px;
+		top: -0.5em;
 	}
 
 	#c4 {
 		left: -1.5%;
-		top: -4px;
+		top: -0.5em;
 	}
 }
