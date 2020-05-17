@@ -12,7 +12,7 @@ var start = 0.0;
 
 function bobbingCircles() {
 	for (i=0; i<c.length; i++) {
-		c[i].style.top = (10 * Math.sin(start-i) - 10) + "px";
+		c[i].style.top = (0.3 * Math.sin(start-i)) + "em";
 	}
 	start += 0.01;
 }
