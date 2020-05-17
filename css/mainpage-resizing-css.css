@@ -104,22 +104,22 @@
 
 	.circle {
 		position: relative;
-		width: 200px;
-		height: 200px;
-		font-size: 20px;
+		width: 20em;
+		height: 20em;
+		font-size: 2em;
 	}
 
 	.title {
-		font-size: 80px;
-		line-height: 120px;
+		font-size: 10em;
+		line-height: 12em;
 		text-align: center;
 		float: none;
 		width: 100%;
 	}
 
 	.subtitle {
-		font-size: 30px;
-		line-height: 50px;
+		font-size: 3em;
+		line-height: 5em;
 		text-align: center;
 		float: none;
 		width: 100%;
