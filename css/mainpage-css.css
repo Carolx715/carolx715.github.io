@@ -36,11 +36,13 @@ a {
 	height: auto;
 }
 
+/*
 .text-container {
 	position: relative;
 	float: left;
 	width: 70%;
 }
+*/
 
 .portrait-container {
 	position: relative;
@@ -55,6 +57,7 @@ a {
 
 .title {
 	position: relative;
+	float: right;
 	margin: 0px;
 	right: 0%;
 	color: #AFCFD3;
@@ -67,6 +70,8 @@ a {
 
 .subtitle {
 	position: relative;
+	width: 70%;
+	float: right;
 
 	font-family: "Roboto Bold Italic";
 	font-size: 40px;
