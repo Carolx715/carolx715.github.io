@@ -130,6 +130,10 @@
 		width: 60%;
 		height: auto;
 	}
+	
+	.toolbar {
+		height: 6em;
+	}
 
 	#c1 {
 		left: 0.3em;
