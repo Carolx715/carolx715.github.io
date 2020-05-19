@@ -42,7 +42,7 @@ function stahp() {
 //}
 
 function bobbingCircle() {
-	c[cNum].style.top = (-0.5 * Math.abs(Math.sin(start)) + 0.85) + "em";
+	c[cNum].style.top = (-0.5 * Math.abs(Math.sin(start)) + 0.5) + "em";
 	//	c[cNum].style.top = -200 + "px";
 	start += 0.02;
 }
