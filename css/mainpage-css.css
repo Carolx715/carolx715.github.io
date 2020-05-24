@@ -38,6 +38,7 @@ a {
 .portrait-img {
 	width: 100%;
 	height: auto;
+	display: block;
 }
 
 /*
@@ -56,7 +57,10 @@ a {
 	top: 0%;
 	bottom: 0%;
 	width: 30%;
-	height: auto;
+	height: 100%;
+	margin: 2%;
+	margin-top: 3%;
+	
 }
 
 .title {
@@ -65,9 +69,8 @@ a {
 	margin: 0px;
 	right: 0%;
 	color: #AFCFD3;
-	text-align: right;
 	font-family: "Roboto Bold Italic";
-	font-size: 110px;
+	font-size: 103px;
 	line-height: 169px;
 	text-align: right;
 	
@@ -76,7 +79,7 @@ a {
 
 .subtitle {
 	position: relative;
-	width: 70%;
+	width: 60%;
 	float: right;
 
 	font-family: "Roboto Bold Italic";
