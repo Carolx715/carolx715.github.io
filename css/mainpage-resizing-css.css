@@ -1,3 +1,4 @@
+/*
 @media screen and (min-width: 1450px) {
 	.circle {
 		width: 300px;
@@ -15,6 +16,7 @@
 		line-height: 70px;
 	}
 }
+*/
 @media screen and (max-width:1050px) {
 	body {
 		padding: 0px;
