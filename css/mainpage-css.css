@@ -10,7 +10,7 @@ html {
 body {
 /*	height: 100%;*/
 	padding: 50px;
-	padding-top: 70px;
+	padding-top: 5em;
 	text-align: center;
 }
 
@@ -107,6 +107,7 @@ a {
 	height: 266px;
 	text-align: center;
 	display: inline-block;
+	margin-bottom: 3em;
 	
 	font-family: "Roboto Bold Italic";
 	color: white;

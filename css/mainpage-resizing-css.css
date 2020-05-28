@@ -1,3 +1,20 @@
+@media screen and (min-width: 1051px) {
+	.circle {
+		width: 300px;
+		height: 300px;
+		font-size: 30px;
+		margin-bottom: 0em;
+	}
+	.title {
+		font-size: 120px;
+		line-height: 190px;
+	}
+
+	.subtitle {
+		font-size: 50px;
+		line-height: 70px;
+	}
+}
 @media screen and (max-width:1050px) {
 	body {
 		padding: 0px;
@@ -8,6 +25,7 @@
 		width: 180px;
 		height: 180px;
 		font-size: 25px;
+		margin-bottom: 0em;
 	}
 
 	.title {
@@ -27,7 +45,7 @@
 	}
 }
 
-@media screen and (max-width:626px) {
+@media screen and (max-width:624px) {
 	.portrait-container {
 		float: none;
 		display: inline-block;
@@ -39,7 +57,9 @@
 		padding-top: 70px;
 	}
 
+	
 	.circle {
+		margin-bottom: 0em;
 		position: relative;
 		width: 180px;
 		height: 180px;
